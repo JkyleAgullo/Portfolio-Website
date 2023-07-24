@@ -70,20 +70,21 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
-.content1{
+.content1{ /* Grid Layout */
     background-color: orange;
     margin: 0 15%;
     height: 900px;
+    display: grid;
+    grid-template-columns: 950px 1fr;
+    padding-top: 3%;
 }
 
-.home-text {
+.home-text {  
     padding-top: 15%;
-    display: flex;
-    flex-direction: column;
 }
 
 .home-text h1{
-    font-size: 70px;
+    font-size: 90px;
 }
 
 .home-text p{
@@ -91,8 +92,14 @@ nav ul li a:hover::after{
     padding-top: 20px;
 }
 
+.content1-image {
+    padding-top: 30%;
+}
+
 .content1-image img{
-    height: 500px;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
 }
 
 
