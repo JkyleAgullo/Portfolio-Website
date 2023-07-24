@@ -15,7 +15,7 @@ body{
 
 .container{
     padding: 10px 5%;
-    background-color: red;
+    background-color: white; /*red*/
 }
 .container h3 a{
     color: black;
@@ -47,7 +47,7 @@ nav ul li a::after{
     content: '';
     height: 3px;
     width: 0;
-    background: #ff004f;
+    background: white; /* red */
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -65,13 +65,13 @@ nav ul li a:hover::after{
 }
 
 #container2{
-    background-color: blue;
+    background-color: white; /* Blue */
     height: 900px;
     width: 100%;
 }
 
 .content1{ /* Grid Layout */
-    background-color: orange;
+    background-color: white; /* orange */
     margin: 0 15%;
     height: 900px;
     display: grid;
