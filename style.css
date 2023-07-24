@@ -15,7 +15,7 @@ body{
 
 .container{
     padding: 10px 5%;
-    background-color: white;
+    background-color: red;
 }
 .container h3 a{
     color: black;
@@ -64,42 +64,39 @@ nav ul li a:hover::after{
     font-weight: bolder;
 }
 
-#content{
+#container2{
+    background-color: blue;
+    height: 900px;
     width: 100%;
-    background-color: white;
-    height: 100vh;
-    
 }
 
-.front{
-    padding: 10px 20%;
+.content1{
+    background-color: orange;
+    margin: 0 15%;
+    height: 900px;
+}
+
+.home-text {
+    padding-top: 15%;
     display: flex;
-    background-color: white;
-    display: flex;
-    align-items: flex-end;
-    max-width: 1300px;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
 }
 
-.front h1{
-    color: black;
-    margin-top: 15%;
-    font-size: 60px;
-    font-weight: bold;
+.home-text h1{
+    font-size: 70px;
 }
 
-.front p{
-    color: black;
-    padding-top: 20px;
+.home-text p{
     font-size: 20px;
+    padding-top: 20px;
 }
 
-.front img{
-    max-width: 50%;
-    height: 300px;
-    display: flex;
-    justify-content: right;
+.content1-image img{
+    height: 500px;
 }
+
+
+
+
+
 
